@@ -1,0 +1,692 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+}
+
+
+/* ==================== *\
+	     MAIN
+\* ==================== */
+	.main {
+	background-color: #4F4E4E;	
+	border-bottom-width: 100px;
+	border-bottom-style: solid;
+	border-color: #4F4E4E;
+}
+
+	
+/* ==================== *\
+	     IMAGE
+\* ==================== */
+
+
+img{
+	max-width: 85%;
+}
+
+	.img_lupa{
+		max-width: 3%;
+	}
+
+	.img_triangulo{
+		max-width: 80%;
+	}
+
+	.img_logo{
+		max-width: 70%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.img_buscador {
+		border-right-width: 0px;
+		background-color: #4F4E4E;
+		max-width: 75%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.img_buscadorchica {
+		max-width: 43%;
+    	margin-bottom: -276px;
+    	margin-left: 421px;
+	}
+	
+	.img_mapa1 {
+		border-right-width: 0px;
+		max-width: 75%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 240px;
+		border-radius: 15px;
+	}
+
+
+	.img_mapa {
+		border-right-width: 0px;
+		max-width: 75%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 60px;
+		border-radius: 15px;
+	}
+
+
+@media screen and (max-width: 1024px){
+
+	.municipalidad{
+		text-align: center;
+		font-size: 120%;
+		}
+
+	.img_logo {
+		max-width: 85%;		
+		margin-left: -60px ;	
+	}			
+	}		
+
+
+
+/* ==================== *\
+	   MUNICIPALIDAD
+\* ==================== */
+
+
+
+.municipalidad{
+	background-color: #f6cd00;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 215px;
+	text-align: right;
+}
+
+
+	.municipalidad--especial{
+		font-size: 80%;
+	}
+
+	.municipalidad__link{
+		color: white;
+		font-weight: 150;
+		text-decoration: none;
+	}
+
+	.municipalidad__link:hover{
+		color: yellow;
+	}
+
+	@media screen and (max-width: 1024px){
+
+	.municipalidad{
+		text-align: center;
+		font-size: 120%;
+		}
+	}		
+
+
+/* ==================== *\
+	    H E A D E R 
+\* ==================== */
+
+
+.header{
+	background-color: white;
+	position: sticky;
+	top: 0;
+}
+
+	.header__title{
+		color: red;
+	}
+
+	.header__content{
+		max-width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 35px;
+		padding-right: 35px;
+		display: flex;
+		align-items: center;
+		
+	}
+
+		@media screen and (max-width: 1024px){
+
+			.header__navigation{
+				display: none;
+			}
+		}
+
+.header__burger
+{
+    width: 30px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+    .header__burger span
+    {
+        height: 3px;
+        background-color: darkslategray;
+    }
+
+    @media screen and (min-width: 768px)
+    {
+        .header__burger
+        {
+            display: none;
+        }
+    }
+
+
+/* ==================== *\
+	   BUSCADOR
+\* ==================== */
+
+
+.buscador{
+	background-color: #4F4E4E;
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+	.buscador__menu{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	display: flex;
+}
+
+	.buscador_buscador{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -25px;
+	padding-bottom: 70px;
+	justify-content: space-between;
+
+	}
+
+
+	.buscador__title{
+		color: #4F4E4E;
+	}
+
+	.buscador__content{
+		max-width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 45px;
+		padding-right: 15px;
+		display: flex;
+	}
+
+	.buscador__navigation{
+		display: flex;
+		align-items: center;
+	}
+
+	
+
+/* ==================== *\
+	   1 boton buscador
+\* ==================== */
+
+
+.buscador__button{
+		width: 35px;
+		padding: 4px 10px;
+		border: none;
+		background-color: white;
+		outline: none;
+		cursor: pointer;
+
+	}
+
+	.buscador__form{
+		display: flex;
+		background-color: white;
+		border-radius: 15px;
+		margin-right: -10px;
+	}
+
+	.buscador__label{
+		display: none;
+	}
+
+	.buscador__field{
+		font-size: 55%;
+		color: #4F4E4E;
+		border: none;
+		background-color: transparent;
+		padding-top: 5px;
+		padding-right: 80px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		outline: none;
+		text-align: left;
+	}
+
+	.buscador__input{
+		text-align: right;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center
+}
+
+	.buscador__link{
+		display: block;
+		padding: 5px 10px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: white;
+		line-height:1;
+		font-weight: normal;
+		font-size: 85%;}
+
+	
+
+
+
+/* ==================== *\
+	  2 boton buscador
+\* ==================== */
+
+
+.buscador__button_seg{
+		width: 35px;
+		padding: 4px 10px;
+		margin-left: 220px;
+		border: none;
+		background-color: white;
+		outline: none;
+		border-radius: 15px;
+		cursor: pointer;
+	}
+
+	.buscador__form_seg{
+		display: flex;
+		background-color: white;
+		border-radius: 15px;
+		width: 480px;
+	}
+
+	.buscador__label_seg{
+		display: none;
+	}
+
+	.buscador__field_seg{
+		font-size: 55%;
+		color: #4F4E4E;
+		border: none;
+		background-color: transparent;
+		padding-top: 5px;
+		padding-right: 105px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		outline: none;
+		text-align: left;
+	}
+
+	.buscador__link{
+		display: block;
+		padding: 5px 10px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: white;
+		line-height:1;
+		font-weight: normal;
+		font-size: 85%;}
+
+	
+
+
+/* ==================== *\
+	     M E N U
+\* ==================== */
+
+
+
+.menu{
+	padding: auto;
+	margin: auto;
+	list-style: none;
+	display: flex;
+}
+
+	.menu__link{
+		display: block;
+		padding: 5px 10px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #000;
+		line-height:1;
+	}
+
+	.menu__link:hover{
+		color: #4F4E4E;
+
+	}
+
+	.submenu{
+		padding: 0;
+		list-style: none;
+		display: none;
+		position: absolute;
+		background-color: #c1c1c1;
+	}
+
+	.menu__item:hover .submenu{
+		display: block;
+	}
+
+/* ==================== *\
+	     MAPA
+\* ==================== */
+.imagen__content{
+		max-width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+		margin-bottom: 150px;
+		padding-left: 15px;
+		padding-right: 15px;
+		display: block;
+}
+
+
+
+
+/* ==================== *\
+	   section
+\* ==================== */
+
+
+
+
+.section{
+	background-color: #4F4E4E;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	scroll-margin-top: 142.267px;
+}
+
+	.section__container{
+		max-width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.section__title{
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+
+
+/* =========================== *\
+	 formulario datos
+\* =========================== */
+
+
+.contactform{
+	max-width: 609px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contactform__label{
+	display: none;
+}
+
+.contactform__field{
+	display: block;	
+	width: 100%;
+	margin-bottom: 52px;
+	padding: 13px;
+	border: solid 0 transparent;
+	border-left: solid 5px white;
+	border-bottom: solid 5px white;
+	background-color: transparent;
+	outline: none;
+	transition: border 300ms;
+}
+	
+	.contactform__field:focus{
+		border-top: solid 2px  white;
+		border-right: solid 2px  white;
+	}
+
+	.contactform__field--message{
+		height: 184px;
+	}
+
+.contactform__btn{
+	background-color: transparent;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-left: solid 1px  white;
+	border-right: solid 1px  white;
+	padding: 13px 50px;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: border 300ms;
+	outline: none;
+}
+
+.contactform__btn:hover,
+.contactform__btn:focus{
+	border:solid 5px  white;
+}
+
+
+
+/* ==================== *\
+	     FOOTER
+\* ==================== */
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-TODO{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+    margin-left: 250px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color:  #ffffff;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    margin-right: 250px;
+    
+}
+.footer_fila{
+    margin-top: 5px;
+    display: flex;
+}
+
+.figure{
+    margin-left: -3px;;
+}
+
+.footer_fila img{
+    width: 36px;
+    height: 36px;
+}
+
+.footer_fila label{
+	margin-top: 5px;
+    margin-left: 2px;
+    color: #ffffff;
+}
+
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,{
+        margin-top: 40px;
+    }
+}
+
+
+/* =========================== *\
+	    CRONICAS EMPRENDEDOR
+\* =========================== */
+
+.cronicas_emprendedor
+{    
+    align-items: center;
+    text-align: center;
+}
+
+    .cronicas_emprendedor__header
+    {    
+        justify-content: center;
+        display: inline;    
+    }
+
+    .cronicas_emprendedor__producto img
+    {    
+        width: 105%;  
+        height: 105%; 
+        border-radius: 15px;
+    }
+
+    @media screen and (min-width: 768px)
+        {
+            .cronicas_emprendedor__producto
+            {    
+                justify-content: center;
+                display: flex;    
+            }
+        }
+
+        .cronicas_emprendedor__producto figure
+        {
+            background-color: white;
+            padding: 15px;
+            border-radius: 15px;
+            align-items: center;
+            color: black;
+           
+        }
+
+.cronicas_emprendedor_section
+   {
+    margin-left: auto;
+	margin-right: auto;    
+    justify-content: center;
+    padding: 45px;
+    display: flex;
+    max-width: 1440px;
+     }
+
+
+/* =========================== *\
+	 		UBICACION
+\* =========================== */
+
+.ubicacion
+{ 
+    align-items: center;
+    text-align: center;    
+    left: auto;
+    right: auto;
+}
+
+    .ubicacion__mapa iframe
+        {
+             width: 100%;
+            
+        }
+
+    @media screen and (min-width: 768px)
+    {
+        .ubicacion
+        {
+            align-items: center;
+            text-align: center;  
+            left: auto;
+            right: auto;
+        }
+
+    }
