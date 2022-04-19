@@ -8,7 +8,7 @@ html{
 
 body{
 	margin: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1;
 }
 
@@ -58,24 +58,24 @@ img{
 
 	.img_buscadorchica {
 		max-width: 43%;
-    	margin-bottom: -276px;
+    	margin-bottom: -10px;
     	margin-left: 421px;
 	}
 	
 	.img_mapa1 {
 		border-right-width: 0px;
-		max-width: 75%;
+		max-width: 85%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 240px;
+		margin-top: 60px;
 		border-radius: 15px;
 	}
 
 
 	.img_mapa {
 		border-right-width: 0px;
-		max-width: 75%;
+		max-width: 85%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -221,10 +221,11 @@ img{
 
 	.buscador_buscador{
 	display: flex;
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: -25px;
-	padding-bottom: 70px;
+	margin-top: 60px;
+	padding-bottom: 0px;
 	justify-content: space-between;
 
 	}
@@ -420,7 +421,7 @@ img{
 
 
 /* ==================== *\
-	   section
+	   SECTION
 \* ==================== */
 
 
@@ -447,7 +448,7 @@ img{
 
 
 /* =========================== *\
-	 formulario datos
+	 FORMLARIO DATOS
 \* =========================== */
 
 
@@ -507,6 +508,257 @@ img{
 }
 
 
+
+
+
+
+/* =========================== *\
+	    CRONICAS EMPRENDEDOR
+\* =========================== */
+
+.cronicas_emprendedor
+{    
+    align-items: center;
+    text-align: center;
+}
+
+    .cronicas_emprendedor__header
+    {    
+        justify-content: center;
+        display: inline;    
+    }
+
+    .cronicas_emprendedor__producto img
+    {    
+        width: 105%;  
+        height: 105%; 
+        border-radius: 15px;
+    }
+
+    @media screen and (min-width: 768px)
+        {
+            .cronicas_emprendedor__producto
+            {    
+                justify-content: center;
+                display: flex;    
+            }
+        }
+
+        .cronicas_emprendedor__producto figure
+        {
+            background-color: white;
+            padding: 15px;
+            border-radius: 15px;
+            align-items: center;
+            color: black;
+           
+        }
+
+.cronicas_emprendedor_section
+   {
+    margin-left: auto;
+	margin-right: auto;    
+    justify-content: center;
+    padding: 45px;
+    display: flex;
+    max-width: 1440px;
+     }
+
+
+
+
+/* =========================== *\
+	 	MAIN CRONICAS
+\* =========================== */
+.main__title{
+		background: #fd466c;
+	}
+
+.main__text{
+		color: #FFFFFF;
+		text-align: center;
+		padding: 5px;
+		font-family: 'Raleway', serif;
+		font-size: 30px
+	}
+
+.main__emprendedor{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+	
+
+
+/* =========================== *\
+	 		BANNER
+\* =========================== */
+
+
+.banner__content{
+	max-width: 150%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner__list{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* =========================== *\
+	 		TEXTO BANNER
+\* =========================== */
+
+
+
+.text__banner{
+	width: 55%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	.text__forma_banner{
+		font-size: 15px;
+}
+
+.text__forma_banner2{
+		font-size: 10px;
+
+}
+
+
+
+/* =========================== *\
+	 		UBICACION
+\* =========================== */
+
+.ubicacion
+{ 
+    align-items: center;
+    text-align: center;    
+    left: auto;
+    right: auto;
+}
+
+    .ubicacion__mapa iframe
+        {
+             width: 100%;
+            
+        }
+
+    @media screen and (min-width: 768px)
+    {
+        .ubicacion
+        {
+            align-items: center;
+            text-align: center;  
+            left: auto;
+            right: auto;
+        }
+
+    }
+
+
+/* =========================== *\
+	 	GALERIA EMPRENDEDOR
+\* =========================== */
+
+
+.emprendedor__content{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px){
+	.emprendedor__content{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px 5px;
+
+	}
+}
+
+	.emprendedor__cuadro{
+		max-width: 270px;
+		height: 250px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.15);
+	}
+
+	.emprendedor__cuadro__link{
+		position: relative;
+
+	}
+
+	.emprendedor__cuadro__overlay{
+		display: block;	
+		position: absolute;
+		opacity: 0;
+	}
+
+	.emprendedor__cuadro__link:hover .emprendedor__cuadro__overlay{
+		opacity: 1;
+		transition: 0.2s;
+	}
+	
+
+	.emprendedor__cuadro__overlay p{
+		text-align: center;
+		padding: 5px 55.5px;
+	}
+
+	.btn__whatsapp{
+		width: 55px;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-top: 50%;
+		margin-bottom: 40px;	
+		opacity: 70%;
+		background-color: transparent;
+		cursor: pointer;
+		border-radius: 15px;
+		border-color: transparent;
+	}
+	
+	.btn__emprendedor__texto{
+	background-color: black;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  
+	}
+
+	.emprendedor__title{
+		font-family: 'Raleway', sans-serif;
+		font-weight: normal;
+		color: black;
+		margin: 5px;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	
+	.emprendedor_text{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
 
 /* ==================== *\
 	     FOOTER
@@ -591,6 +843,13 @@ footer{
     font-weight: bold;
 }
 
+.footer_bold {
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+
+}
 
 @media screen and (max-width: 1100px){
     
@@ -606,87 +865,3 @@ footer{
         margin-top: 40px;
     }
 }
-
-
-/* =========================== *\
-	    CRONICAS EMPRENDEDOR
-\* =========================== */
-
-.cronicas_emprendedor
-{    
-    align-items: center;
-    text-align: center;
-}
-
-    .cronicas_emprendedor__header
-    {    
-        justify-content: center;
-        display: inline;    
-    }
-
-    .cronicas_emprendedor__producto img
-    {    
-        width: 105%;  
-        height: 105%; 
-        border-radius: 15px;
-    }
-
-    @media screen and (min-width: 768px)
-        {
-            .cronicas_emprendedor__producto
-            {    
-                justify-content: center;
-                display: flex;    
-            }
-        }
-
-        .cronicas_emprendedor__producto figure
-        {
-            background-color: white;
-            padding: 15px;
-            border-radius: 15px;
-            align-items: center;
-            color: black;
-           
-        }
-
-.cronicas_emprendedor_section
-   {
-    margin-left: auto;
-	margin-right: auto;    
-    justify-content: center;
-    padding: 45px;
-    display: flex;
-    max-width: 1440px;
-     }
-
-
-/* =========================== *\
-	 		UBICACION
-\* =========================== */
-
-.ubicacion
-{ 
-    align-items: center;
-    text-align: center;    
-    left: auto;
-    right: auto;
-}
-
-    .ubicacion__mapa iframe
-        {
-             width: 100%;
-            
-        }
-
-    @media screen and (min-width: 768px)
-    {
-        .ubicacion
-        {
-            align-items: center;
-            text-align: center;  
-            left: auto;
-            right: auto;
-        }
-
-    }
