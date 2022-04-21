@@ -12,6 +12,10 @@ body{
 	line-height: 1;
 }
 
+figure{
+margin:0px
+
+}
 
 /* ==================== *\
 	     MAIN
@@ -46,6 +50,13 @@ img{
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
+
+	.img_logo2{
+		max-width: 70%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
 
 	.img_buscador {
 		border-right-width: 0px;
@@ -93,8 +104,14 @@ img{
 
 	.img_logo {
 		max-width: 85%;		
-		margin-left: -60px ;	
-	}			
+		margin-left: -10px ;	
+	}
+
+	.img_logo2 {
+		max-width: 100%;		
+		margin-left: -226px ;	
+	}
+
 	}		
 
 
@@ -278,7 +295,7 @@ img{
 	}
 
 	.buscador__field{
-		font-size: 55%;
+		font-size: 65%;
 		color: #4F4E4E;
 		border: none;
 		background-color: transparent;
@@ -319,7 +336,7 @@ img{
 .buscador__button_seg{
 		width: 35px;
 		padding: 4px 10px;
-		margin-left: 220px;
+		margin-left: 120px;
 		border: none;
 		background-color: white;
 		outline: none;
@@ -331,8 +348,24 @@ img{
 		display: flex;
 		background-color: white;
 		border-radius: 15px;
-		width: 480px;
+		width: 280px;
 	}
+
+
+ @media screen and (max-width: 450px)
+    {
+        .buscador__form_seg{
+            width: 200px;
+        }
+
+        @media screen and (max-width: 450px)
+    {
+       .buscador__button_seg{
+            margin-left: 5px;
+        }
+    }
+    }
+
 
 	.buscador__label_seg{
 		display: none;
@@ -344,11 +377,12 @@ img{
 		border: none;
 		background-color: transparent;
 		padding-top: 5px;
-		padding-right: 105px;
+		padding-right: 15px;
 		padding-bottom: 5px;
 		padding-left: 10px;
 		outline: none;
 		text-align: left;
+
 	}
 
 	.buscador__link{
@@ -802,8 +836,15 @@ footer{
 .footer_fila{
     margin-top: 5px;
     display: flex;
+    margin-left: 206px;
 }
 
+.footer_fila_fin{
+    margin-top: 5px;
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
 .figure{
     margin-left: -3px;;
 }
@@ -818,6 +859,16 @@ footer{
     margin-left: 2px;
     color: #ffffff;
 }
+
+
+
+ @media screen and (min-width: 250px)
+    {
+        .footer_fila label
+        {
+            margin-left: -200px;
+        }
+    }
 
 
 .container-footer{
