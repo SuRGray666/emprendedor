@@ -12,11 +12,6 @@ body{
 	line-height: 1;
 }
 
-figure{
-margin:0px
-
-}
-
 /* ==================== *\
 	     MAIN
 \* ==================== */
@@ -106,7 +101,7 @@ img{
 
 	.img_logo2 {
 		max-width: 100%;		
-		margin-left: -226px ;	
+		margin-left: -10px ;	
 	}
 
 	.img_mapa {
@@ -808,54 +803,44 @@ footer{
     
 }
 
-.container-footer-TODO{
+.container-footer-all{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1519px;
     margin: auto;
-    padding: 40px;
+    padding: 0px;
 }
 
 .container-body{
     display: flex;
     justify-content: space-between;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.colum1{
-    max-width: 400px;
-    margin-left: 250px;
-}
-
-.colum1 p{
-    font-size: 14px;
-    color:  #ffffff;
-    margin-top: 20px;
-}
-
-.colum2{
-    max-width: 400px;
-    margin-right: 250px;
+.footer__column{
+    width: 33.3%;
     
 }
+
+
 .footer_fila_1{
-    margin-top: 5px;
-    display: flex;
-    margin-left: 206px;
+      display: flex;
+    
 }
 
 .footer_fila{
-    margin-top: 5px;
+    ;
     display: flex;
-    margin-left: 206px;
+    ;
 }
 
 .footer_fila_fin{
-    margin-top: 5px;
     display: flex;
-    margin-left: 5px;
     margin-bottom: 30px;
 }
 .figure{
-    margin-left: -3px;;
+   margin-left: 0px; 
 }
 
 .footer_fila img{
@@ -864,26 +849,25 @@ footer{
 }
 
 .footer_fila label{
-	margin-top: 5px;
-    margin-left: 2px;
-    color: #ffffff;
+	color: #ffffff;
 }
 
 
 
- @media screen and (min-width: 250px)
+	 @media screen and (min-width: 250px)
     {
         .footer_fila label
         {
-            margin-left: -200px;
+            
         }
 
         .footer_fila_1{
-    margin-left: -252px;
-}
+    
+		}
+
+	}
 
 .footer_fila_fin{
-margin-left: -249px;
     }
 
 
@@ -893,11 +877,19 @@ margin-left: -249px;
 }
 
 .footer{
-    max-width: 1200px;
+    max-width: 1520px;
     margin: auto;
     display: flex;
     justify-content: center;  
+    padding: 0px;
+}
+
+.footer__bottom{
+    text-align: center;
     padding: 20px;
+    max-width: 1519px;
+    width: 100%;
+    background: black;
 }
 
 .copyright{
@@ -915,6 +907,7 @@ margin-left: -249px;
     color: white;
     font-size: 150%;
     font-weight: bold;
+    padding-top: 10px;
 
 }
 
